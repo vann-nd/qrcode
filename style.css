@@ -1,6 +1,7 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
  
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -16,7 +17,7 @@ div {
 }
 
 div.meio {
-  background-color: rgb(9, 109, 202);
+  background-color: rgb(97, 75, 194);
   justify-content: center;
   align-items: flex-start;
   width: 500px;
@@ -24,11 +25,32 @@ div.meio {
   padding-top: 50px;
 }
 
+
 div.dentro-meio {
   width: 300px;
   height: 300px;
   background-color: white;
   justify-content: center;
   align-items: center;
-  
+  flex-direction: column;
+}
+
+
+img.qr {
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  position: absolute;
+  font-family: monospace;
+}
+
+p {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 600px 0 0 0;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
 }
