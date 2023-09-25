@@ -7,13 +7,15 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: rgba(129, 111, 231, 0.74);
+  
 }
 
 div {
   border-radius: 4px;
   display: flex;
   max-width: 100%;
-  max-height: 100%
+  max-height: 100%;
 }
 
 div.meio {
@@ -23,6 +25,7 @@ div.meio {
   width: 500px;
   height: 650px;
   padding-top: 50px;
+  box-shadow: 0px 10px 13px -7px #000000, 6px 12px 17px 5px rgba(0,0,0,0.34);
 }
 
 
@@ -33,6 +36,12 @@ div.dentro-meio {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 6px 12px 17px 5px rgba(0,0,0,0);background: #1C6EA4;
+  position: absolute;
+}
+
+body#tinymce {
+background: #FFFFFF
 }
 
 
@@ -50,7 +59,26 @@ p {
   width: 300px;
   height: 300px;
   margin: 600px 0 0 0;
-  font-size: larger;
+  font-size: 40px;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-style: oblique;
+}
+
+footer {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+p.rodape {
+  font-style: normal;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
 }
